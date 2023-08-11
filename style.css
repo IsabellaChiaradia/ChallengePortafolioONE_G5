@@ -15,7 +15,7 @@ body {
 
 /* Menu Styles */
 .menu {
-    background-color: #222;
+    background-color: #222;    
     color: white;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -101,53 +101,35 @@ body {
     color: #f39c12;
 }
 
-.skills {
-    padding: 20px;
+.skills__box ul,
+.hobbies__box ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
 }
-    .skills__line {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
 
-    .skills__box {
-        width: calc(33.33% - 20px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }    
-    .skills__name {
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    
+.skills__line,
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
 
-
-/* Componente de hobbies */
-.hobbies {
-    padding: 20px;
+.skills__box,
+.hobbies__box {
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
-    .hobbies__line {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin-top: 20px;
-    }
 
-    .hobbies__box {
-        width: calc(33.33% - 20px);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }    
-    
-    .hobbies__name {
-        font-size: 16px;
-        margin-top: 10px;
-    }
+.skills__name,
+.hobbies__name {
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 /* Academic Section Styles */
 .academic__title {
