@@ -281,8 +281,9 @@ body {
 }
 
 /* Form Contact Styles */
-.formcontato__contacto {
+.formcontato {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 40px 0;
 }
@@ -314,6 +315,7 @@ body {
 
 .formcontato__input,
 .formcontato__textarea {
+    font-family: 'Raleway', sans-serif;;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -336,7 +338,7 @@ body {
 }
 
 .formcontato__botao:hover {
-    background-color: #e67e22;
+    background-color: #984a05;
 }
 
 .formcontato__error {
